@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: #333;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: #0066cc;
+}
+/* style.css */
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('assets/background-image.jpg'); /* Ganti dengan path gambar yang sesuai */
+    background-size: cover; /* Agar gambar menutupi seluruh halaman */
+    background-position: center; /* Menempatkan gambar di tengah halaman */
+    background-repeat: no-repeat; /* Menghindari pengulangan gambar */
+    color: white; /* Untuk memastikan teks terlihat jelas di atas gambar */
+    font-family: Arial, sans-serif; /* Menambahkan font untuk tampilan yang lebih baik */
+}
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+nav {
+    text-align: center;
+    margin-top: 20px;
+}
+nav a {
+    color: white; /* Warna link agar kontras dengan gambar latar belakang */
+    text-decoration: none;
+    margin: 0 10px;
+}
+nav a:hover {
+    text-decoration: underline; /* Menambahkan efek saat hover */
+}
